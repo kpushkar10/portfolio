@@ -1,4 +1,8 @@
 @charset "utf-8";
+/*@font-face {
+    font-family: RoadTest;
+    src: url(C:\Users\krish\Downloads\roadtest\RoadTest);
+}*/
 
 body{
     background-color: f6f5f5;
@@ -18,6 +22,7 @@ section{
     background-image: url("../images/bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 nav{
     display: flex;
@@ -35,11 +40,44 @@ nav ul li a{
     margin:30px;
     font-family: myriad pro regular;
     font-size: 15px;
-    font-weight: 650;
+    font-weight: 700;
     color: #505050;
 }
 .logo{
-    font-family: RoadTest;
-    font-size: 22px;
+    font-family: RoadTest; /*yet to be added font*/
+    font-size: 30px;
     color: #000000;
+}
+.active{
+    font-weight: bold;
+    color: #070707;
+}
+.textContainer p:nth-child(1){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.textContainer p:nth-child(2){
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+.textContainer p:nth-child(3){
+    font-family: 'Times New Roman', Times, serif;
+    color: #403e3e;
+    font-size: 30px;
+    line-height: 30px;
+}
+.textContainer p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.textContainer{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
 }
