@@ -3,6 +3,8 @@
     font-family: RoadTest;
     src: url(C:\Users\krish\Downloads\roadtest\RoadTest);
 }*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 body{background-color: #f6f5f5;
     margin: 0px;
@@ -43,7 +45,7 @@ nav ul li a{
     color: #505050;
 }
 .logo{
-    font-family: RoadTest; /*yet to be added font*/
+    font-family: Playfair Display; /*yet to be added font*/
     font-size: 50px;
     color: #000000;
 }
@@ -52,20 +54,22 @@ nav ul li a{
     color: #070707;
 }
 .textContainer p:nth-child(1){
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: #6d6d6d;
-    font-size: 22px;
+    font-family: Playfair Display,'Times New Roman', Times, serif;
+    font-weight: 100;
+    color: #474747;
+    font-size: 25px;
 }
 .textContainer p:nth-child(2){
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Playfair Display,'Times New Roman', Times, serif;
     font-weight: bold;
     letter-spacing: 1px;
     color: #1a1a1a;
     font-size: 60px;
 }
 .textContainer p:nth-child(3){
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Playfair Display,'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 0;
     color: #403e3e;
     font-size: 30px;
     line-height: 30px;
@@ -193,6 +197,11 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 .boxContainer{
     display: flex;
@@ -207,4 +216,46 @@ background-image: url(images/services-1.png);
 }
 .box3{
     background-image: url(images/servies-3.png);
+}
+
+.box1 span,
+.box2 span,
+.box3 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    font-family: calibri;
+    font-weight: bold;
+    align-items: center;
+}
+.box1 p:nth-child(2),
+.box2 p:nth-child(2),
+.box3 p:nth-child(2){
+    color: #FFFFFF;
+    font-family: calibri;
+    font-size: 30px;
+    line-height: 0px;
+}
+.box1 p:nth-child(3),
+.box2 p:nth-child(3),
+.box3 p:nth-child(3){
+    font-family: calibri;
+    font-size: 18px;
+    text-align: center;
+    width: 230px;
+    margin: 0px 0px 20px 0px;
+    color: #dedede;
+}
+.box1 button,
+.box2 button,
+.box3 button{
+    width: 100px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
 }
