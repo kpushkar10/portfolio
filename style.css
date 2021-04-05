@@ -158,13 +158,19 @@ button:hover{
     font-size: 20px;
 }
 .aboutText button{
-    width: 120px;
+    width: 100px;
     height: 40px;
     color: #FFFFFF;
     outline: none;
     border: none;
     font-family: calibri;
     background-color: #262525;
+}
+.aboutB1{
+    margin-right: 5px;
+}
+.aboutB2{
+    margin-left: 5px;
 }
 
 /* ***********Services************* */
@@ -181,21 +187,21 @@ button:hover{
     font-size: 35px;
     line-height: 0px;
 }
-.serviceText p:nth-child(2){
+/* .serviceText p:nth-child(2){
     font-family: calibri;
     font-weight: bold;
     color: #3e3d3d;
     font-size: 20px;
     line-height: 5px;
-}
-.serviceText p:nth-child(3){
+} */
+.serviceText p:nth-child(2){
     font-family: calibri;
     color: #7e7d7d;
-    font-size: medium;
 }
 .serviceText{
     width: 500px;
     margin: 50px 0px;
+    font-size: 20px;
 }
 .box1, .box2, .box3{
     width: 300px;
